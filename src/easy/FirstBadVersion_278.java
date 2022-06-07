@@ -5,6 +5,10 @@ boolean isBadVersion(int version); */
 
 public class FirstBadVersion_278 {
 	
+	boolean isBadVersion(int version) {
+		return false;
+	}
+	
 	public int firstBadVersion(int n) {
         long low = 1, high = n;
         long mid = (low + high) / 2, ans = 1;

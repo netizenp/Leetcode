@@ -1,3 +1,4 @@
+package easy;
 import java.util.Arrays;
 
 public class MergeSortedArray_88 {
